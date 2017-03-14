@@ -54,14 +54,64 @@ class ContactHelper:
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
         self.return_to_homepage()
 
+    def edit_first_contact(self, contact):
+        wd = self.app.wd
+        # Выбираем первую запись в адресной книге
+        wd.find_element_by_name("selected[]").click()
+        # Нажимаем кнопку редактировать
+        wd.find_element_by_xpath('//table/..//tr[2]/td[8]').click()
+        # Редактируем запись
+        wd.find_element_by_name("firstname").click()
+        wd.find_element_by_name("firstname").clear()
+        wd.find_element_by_name("firstname").send_keys(contact.Firstname)
+        wd.find_element_by_name("lastname").click()
+        wd.find_element_by_name("lastname").clear()
+        wd.find_element_by_name("lastname").send_keys(contact.Lastname)
+        wd.find_element_by_name("nickname").click()
+        wd.find_element_by_name("nickname").clear()
+        wd.find_element_by_name("nickname").send_keys(contact.Nickname)
+        wd.find_element_by_name("title").click()
+        wd.find_element_by_name("title").clear()
+        wd.find_element_by_name("title").send_keys(contact.Title)
+        wd.find_element_by_name("company").click()
+        wd.find_element_by_name("company").clear()
+        wd.find_element_by_name("company").send_keys(contact.Company)
+        wd.find_element_by_name("address").click()
+        wd.find_element_by_name("address").clear()
+        wd.find_element_by_name("address").send_keys(contact.Address)
+        wd.find_element_by_name("home").click()
+        wd.find_element_by_name("home").clear()
+        wd.find_element_by_name("home").send_keys(contact.Homephone)
+        wd.find_element_by_name("mobile").click()
+        wd.find_element_by_name("mobile").clear()
+        wd.find_element_by_name("mobile").send_keys(contact.Mobilephone)
+        wd.find_element_by_name("email").click()
+        wd.find_element_by_name("email").clear()
+        wd.find_element_by_name("email").send_keys(contact.Email)
+        wd.find_element_by_name("homepage").click()
+        wd.find_element_by_name("homepage").clear()
+        wd.find_element_by_name("homepage").send_keys(contact.Homepage)
+        if not wd.find_element_by_xpath("//div[@id='content']/form/select[1]//option[28]").is_selected():
+            wd.find_element_by_xpath("//div[@id='content']/form/select[1]//option[28]").click()
+        if not wd.find_element_by_xpath("//div[@id='content']/form/select[2]//option[4]").is_selected():
+            wd.find_element_by_xpath("//div[@id='content']/form/select[2]//option[4]").click()
+        wd.find_element_by_name("byear").click()
+        wd.find_element_by_name("byear").clear()
+        wd.find_element_by_name("byear").send_keys("1960")
+        wd.find_element_by_name("address2").click()
+        wd.find_element_by_name("address2").clear()
+        wd.find_element_by_name("address2").send_keys("Test")
+        wd.find_element_by_xpath('//input[@value="Update"][2]').click()
+        self.return_to_homepage()
+
     def delete_first_contact(self):
         wd = self.app.wd
         self.app.open_home_page()
-        #выбираем первый контакт в адресной книге
+        # Выбираем первый контакт в адресной книге
         wd.find_element_by_name("selected[]").click()
-        #нажимаем кнопку удалить
+        # Нажимаем кнопку удалить
         wd.find_element_by_xpath('//input[@value="Delete"]').click()
-        #подтверждаем удаление
+        # Подтверждаем удаление
         wd.switch_to_alert().accept()
         self.app.open_home_page()
 
