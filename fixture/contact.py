@@ -19,6 +19,7 @@ class ContactHelper:
 
     def edit_first_contact(self, new_contact_data):
         wd = self.app.wd
+        self.app.open_home_page()
         self.select_first_contact()
         # Нажимаем кнопку Edit
         wd.find_element_by_xpath('//table/..//tr[2]/td[8]').click()
