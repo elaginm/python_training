@@ -1,5 +1,4 @@
-from selenium.webdriver.common.keys import Keys
-
+from selenium.webdriver.support.ui import Select
 
 class ContactHelper:
     def __init__(self, app):
@@ -16,6 +15,14 @@ class ContactHelper:
         # Нажимаем кнопку Enter
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
         self.return_to_homepage()
+
+    def edit_empty_name(self):
+        wd = self.app.wd
+        self.app.open_home_page()
+        self.select_first_contact()
+        wd.find_element_by_xpath('//input[@value="Update"]').click()
+        
+        return str(wd.find_element_by_name('//input[@name="firstname"]'))
 
     def edit_first_contact(self, new_contact_data):
         wd = self.app.wd
@@ -47,13 +54,10 @@ class ContactHelper:
         self.change_field_value("mobile", contact.Mobilephone)
         self.change_field_value("email", contact.Email)
         self.change_field_value("homepage", contact.Homepage)
-        wd.find_element_by_xpath('//select[@name="bday"]').click()
-        wd.find_element_by_xpath("//select[@name=\"bday\"]/option[@value='" + str(contact.BirthdayDay) + "']").click()
-        wd.find_element_by_xpath('//select[@name="bday"]').send_keys(Keys.ENTER)
-        wd.find_element_by_xpath('//select[@name="bmonth"]').click()
-        wd.find_element_by_xpath(
-            "//select[@name=\"bmonth\"]/option[@value='" + str(contact.BirthdayMonth) + "']").click()
-        wd.find_element_by_xpath('//select[@name="bmonth"]').send_keys(Keys.ENTER)
+        select = Select(wd.find_element_by_xpath('//select[@name="bday"]'))
+        select.select_by_value(contact.BirthdayDay)
+        select = Select(wd.find_element_by_xpath('//select[@name="bmonth"]'))
+        select.select_by_value(contact.BirthdayMonth)
         self.change_field_value("byear", contact.BirthdayYear)
         self.change_field_value("address2", contact.Address2)
 
@@ -74,3 +78,8 @@ class ContactHelper:
     def return_to_homepage(self):
         wd = self.app.wd
         wd.find_element_by_link_text("home page").click()
+
+    def count(self):
+        wd = self.app.wd
+        self.app.open_home_page()
+        return len(wd.find_elements_by_name("selected[]"))

@@ -28,6 +28,14 @@ class GroupHelper:
         self.change_field_value("group_header", group.header)
         self.change_field_value("group_footer", group.footer)
 
+    def empty_name(self):
+        wd = self.app.wd
+        self.open_groups_page()
+        self.select_first_group()
+        wd.find_element_by_xpath('//input[@value="Edit group"]').click()
+        return len(wd.find_elements_by_name('//input[@name="group_name"]'))
+
+
     def edit_first_group(self, new_group_data):
         wd = self.app.wd
         self.open_groups_page()
