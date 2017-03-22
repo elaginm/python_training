@@ -1,5 +1,6 @@
 from selenium.webdriver.support.ui import Select
 
+
 class ContactHelper:
     def __init__(self, app):
         self.app = app
@@ -20,16 +21,15 @@ class ContactHelper:
         wd = self.app.wd
         self.app.open_home_page()
         self.select_first_contact()
-        wd.find_element_by_xpath('//input[@value="Update"]').click()
-        
-        return str(wd.find_element_by_name('//input[@name="firstname"]'))
+        wd.find_element_by_xpath('//img[@title="Edit"]').click()
+        return wd.find_element_by_xpath('//input[@name="firstname"]').get_attribute("value")
 
     def edit_first_contact(self, new_contact_data):
         wd = self.app.wd
         self.app.open_home_page()
         self.select_first_contact()
         # Нажимаем кнопку Edit
-        wd.find_element_by_xpath('//table/..//tr[2]/td[8]').click()
+        wd.find_element_by_xpath('//img[@title="Edit"]').click()
         self.fill_contact_form(new_contact_data)
         # Нажимаем кнопку Update
         wd.find_element_by_xpath('//input[@value="Update"][2]').click()
