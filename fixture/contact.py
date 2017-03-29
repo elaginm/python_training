@@ -19,19 +19,22 @@ class ContactHelper:
         self.return_to_homepage()
         self.contact_cache = None
 
-    def edit_empty_name(self):
+    def edit_empty_name(self, index):
         wd = self.app.wd
         self.app.open_home_page()
-        self.select_first_contact()
-        wd.find_element_by_xpath('//img[@title="Edit"]').click()
+        self.select_contact_by_index(index)
+        wd.find_elements_by_xpath('//img[@title="Edit"]')[index].click()
         return wd.find_element_by_xpath('//input[@name="firstname"]').get_attribute("value")
 
-    def edit_first_contact(self, new_contact_data):
+    def edit_first_contact(self):
+        self.edit_contact_by_index(0)
+
+    def edit_contact_by_index(self, index, new_contact_data):
         wd = self.app.wd
         self.app.open_home_page()
-        self.select_first_contact()
+        self.select_contact_by_index(index)
         # Нажимаем кнопку Edit
-        wd.find_element_by_xpath('//img[@title="Edit"]').click()
+        wd.find_elements_by_xpath('//img[@title="Edit"]')[index].click()
         self.fill_contact_form(new_contact_data)
         # Нажимаем кнопку Update
         wd.find_element_by_xpath('//input[@value="Update"][2]').click()
@@ -68,10 +71,17 @@ class ContactHelper:
         wd = self.app.wd
         wd.find_element_by_name("selected[]").click()
 
+    def select_contact_by_index(self, index):
+        wd = self.app.wd
+        wd.find_elements_by_name("selected[]")[index].click()
+
     def delete_first_contact(self):
+        self.delete_contact_by_index(0)
+
+    def delete_contact_by_index(self, index):
         wd = self.app.wd
         self.app.open_home_page()
-        self.select_first_contact()
+        self.select_contact_by_index(index)
         # Нажимаем кнопку удалить
         wd.find_element_by_xpath('//input[@value="Delete"]').click()
         # Подтверждаем удаление
