@@ -4,13 +4,13 @@ from random import randrange
 
 def test_edit_contact(app):
     old_contacts = app.contact.get_contact_list()
-    contact = Contact(Firstname="Nikolay", Lastname="Elagin", Nickname="Kolja", Title="123", Company="IT",
-                      Address="Kazan", Homephone="12345678", Mobilephone="+7999441111", Email="kolja@nikolay.de",
-                      Homepage="www.1n2i3k.ru", BirthdayDay="23", BirthdayMonth="January", BirthdayYear="1963",
-                      Address2="No address")
+    contact = Contact(firstname="Nikolay", lastname="Elagin", nickname="Kolja", title="123", company="IT",
+                      address="Kazan", homephone="12345678", mobilephone="123456789", email="kolja@nikolay.de",
+                      homepage="www.1n2i3k.ru", birthdayday="23", birthdaymonth="January", birthdayyear="1963",
+                      address2="No address")
     if app.contact.count() == 0:
         app.contact.create(contact)
-        app.contact.edit_first_contact(Contact(Firstname="Mikhail"))
+        app.contact.edit_first_contact(Contact(firstname="Mikhail"))
         app.contact.delete_first_contact()
         new_contacts = app.contact.get_contact_list()
         assert len(old_contacts) == len(new_contacts)
@@ -26,9 +26,9 @@ def test_edit_contact(app):
 
 def test_edit_empty_name(app):
     old_contacts = app.contact.get_contact_list()
-    contact = Contact(Firstname="Ivan", Lastname="Taranov")
+    contact = Contact(firstname="Ivan", lastname="Taranov")
     if app.contact.count() == 0:
-        app.contact.create(Contact(Firstname="", Lastname=""))
+        app.contact.create(Contact(firstname="", lastname=""))
         app.contact.edit_first_contact(contact)
         app.contact.delete_first_contact()
         new_contacts = app.contact.get_contact_list()
@@ -48,9 +48,9 @@ def test_edit_empty_name(app):
 
 def test_edit_non_empty_name(app):
     old_contacts = app.contact.get_contact_list()
-    contact = Contact(Firstname="", Lastname="")
+    contact = Contact(firstname="", lastname="")
     if app.contact.count() == 0:
-        app.contact.create(Contact(Firstname="Users", Lastname="Test"))
+        app.contact.create(Contact(firstname="Users", lastname="Test"))
         app.contact.edit_first_contact(contact)
         app.contact.delete_first_contact()
         new_contacts = app.contact.get_contact_list()
