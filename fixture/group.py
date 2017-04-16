@@ -32,10 +32,10 @@ class GroupHelper:
         self.change_field_value("group_header", group.header)
         self.change_field_value("group_footer", group.footer)
 
-    def empty_name(self, index):
+    def empty_name(self, id):
         wd = self.app.wd
         self.open_groups_page()
-        self.select_group_by_index(index)
+        self.select_group_by_id(id)
         wd.find_element_by_name("edit").click()
         return wd.find_element_by_xpath('//input[@name="group_name"]').get_attribute("value")
 
@@ -56,6 +56,20 @@ class GroupHelper:
         self.return_to_groups_page()
         self.group_cache = None
 
+    def edit_group_by_id(self, id, new_group_data):
+        wd = self.app.wd
+        self.open_groups_page()
+        self.select_group_by_id(id)
+        # Нажимаем кнопку редактировать группу
+        wd.find_element_by_name("edit").click()
+        # Редактируем информацию о группе
+        self.fill_group_form(new_group_data)
+        # Нажимаем на кнопку Update
+        wd.find_element_by_xpath('//input[@value="Update"]').click()
+        # Возврат в окно списка групп
+        self.return_to_groups_page()
+        self.group_cache = None
+
     def select_first_group(self):
         wd = self.app.wd
         wd.find_element_by_name("selected[]").click()
@@ -64,6 +78,10 @@ class GroupHelper:
         wd = self.app.wd
         wd.find_elements_by_name("selected[]")[index].click()
 
+    def select_group_by_id(self, id):
+        wd = self.app.wd
+        wd.find_element_by_css_selector("input[value='%s']" % id).click()
+
     def delete_first_group(self):
         self.delete_group_by_index(0)
 
@@ -71,6 +89,15 @@ class GroupHelper:
         wd = self.app.wd
         self.open_groups_page()
         self.select_group_by_index(index)
+        # submit deletion
+        wd.find_element_by_name("delete").click()
+        self.return_to_groups_page()
+        self.group_cache = None
+
+    def delete_group_by_id(self, id):
+        wd = self.app.wd
+        self.open_groups_page()
+        self.select_group_by_id(id)
         # submit deletion
         wd.find_element_by_name("delete").click()
         self.return_to_groups_page()
