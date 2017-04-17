@@ -27,6 +27,13 @@ class ContactHelper:
         wd.find_elements_by_xpath('//img[@title="Edit"]')[index].click()
         return wd.find_element_by_xpath('//input[@name="firstname"]').get_attribute("value")
 
+    def edit_empty_id(self, id):
+        wd = self.app.wd
+        self.app.open_home_page()
+        self.select_contact_by_id(id)
+        d.find_element_by_xpath("//input[@id=" + id + "]//../following-sibling::td//img[@title='Edit']").click()
+        return wd.find_element_by_xpath('//input[@name="firstname"]').get_attribute("value")
+
     def edit_first_contact(self):
         self.edit_contact_by_index(0)
 
@@ -36,6 +43,18 @@ class ContactHelper:
         self.select_contact_by_index(index)
         # Нажимаем кнопку Edit
         wd.find_elements_by_xpath('//img[@title="Edit"]')[index].click()
+        self.fill_contact_form(new_contact_data)
+        # Нажимаем кнопку Update
+        wd.find_element_by_xpath('//input[@value="Update"][2]').click()
+        self.return_to_homepage()
+        self.contact_cache = None
+
+    def edit_contact_by_id(self, id, new_contact_data):
+        wd = self.app.wd
+        self.app.open_home_page()
+        self.select_contact_by_id(id)
+        # Нажимаем кнопку Edit
+        wd.find_element_by_xpath("//input[@id="+id+"]//../following-sibling::td//img[@title='Edit']").click()
         self.fill_contact_form(new_contact_data)
         # Нажимаем кнопку Update
         wd.find_element_by_xpath('//input[@value="Update"][2]').click()
