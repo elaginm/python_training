@@ -27,11 +27,11 @@ class ContactHelper:
         wd.find_elements_by_xpath('//img[@title="Edit"]')[index].click()
         return wd.find_element_by_xpath('//input[@name="firstname"]').get_attribute("value")
 
-    def edit_empty_id(self, id):
+    def edit_empty_name_by_id(self, id):
         wd = self.app.wd
         self.app.open_home_page()
         self.select_contact_by_id(id)
-        d.find_element_by_xpath("//input[@id=" + id + "]//../following-sibling::td//img[@title='Edit']").click()
+        wd.find_element_by_xpath("//input[@id=" + id + "]//../following-sibling::td//img[@title='Edit']").click()
         return wd.find_element_by_xpath('//input[@name="firstname"]').get_attribute("value")
 
     def edit_first_contact(self):

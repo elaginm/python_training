@@ -33,9 +33,6 @@ def test_edit_contact(app, db, check_ui):
         if check_ui:
             assert sorted(new_contacts, key=Contact.id_or_max) == sorted(app.contact.get_contact_list(),
                                                                          key=Contact.id_or_max)
-        #Все тесты на редактирование контактов будут падать, т.к. при редактировании записи в БД,
-        # вместо редактирования нужной записи, добавляется новая запись с таким же id, соот-но при сравнении
-        # длины и содержимого список будут расхождения
 
 
 def test_edit_empty_name(app, db, check_ui):
@@ -49,7 +46,7 @@ def test_edit_empty_name(app, db, check_ui):
         assert len(old_contacts) == len(new_contacts)
     else:
         random_contact = random.choice(old_contacts)
-        if app.contact.edit_empty_name(random_contact.id):
+        if app.contact.edit_empty_name_by_id(random_contact.id):
             app.open_home_page()
         else:
             contact.id = random_contact.id
@@ -81,7 +78,7 @@ def test_edit_non_empty_name(app, db, check_ui):
         assert len(old_contacts) == len(new_contacts)
     else:
         random_contact = random.choice(old_contacts)
-        if app.contact.edit_empty_name(random_contact.id):
+        if app.contact.edit_empty_name_by_id(random_contact.id):
             contact.id = random_contact.id
             app.contact.edit_contact_by_id(random_contact.id, contact)
             new_contacts = db.get_contact_list()
