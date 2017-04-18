@@ -3,7 +3,7 @@ import random
 import re
 
 
-def test_edit_name(app, db):
+def test_edit_name(app, db, check_ui):
     old_groups = db.get_group_list()
     group = Group(name="New group")
     if app.group.count() == 0:
@@ -27,6 +27,9 @@ def test_edit_name(app, db):
                 index_group = i
         old_groups[index_group] = group
         assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
+        if check_ui:
+            assert sorted(new_groups, key=Group.id_or_max) == sorted(app.group.get_group_list(), key=Group.id_or_max)
+
 
 # def test_edit_header(app):
 #     old_groups = app.group.get_group_list()
@@ -43,7 +46,7 @@ def test_edit_name(app, db):
 #         assert len(old_groups) == len(new_groups)
 
 
-def test_edit_empty_name(app, db):
+def test_edit_empty_name(app, db, check_ui):
     old_groups = db.get_group_list()
     group = Group(name="Test")
     if app.group.count() == 0:
@@ -71,8 +74,12 @@ def test_edit_empty_name(app, db):
                     index_group = i
             old_groups[index_group] = group
             assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
+            if check_ui:
+                assert sorted(new_groups, key=Group.id_or_max) == sorted(app.group.get_group_list(),
+                                                                         key=Group.id_or_max)
 
-def test_edit_non_empty_name(app, db):
+
+def test_edit_non_empty_name(app, db, check_ui):
     old_groups = db.get_group_list()
     group = Group(name="")
     if app.group.count() == 0:
@@ -97,6 +104,8 @@ def test_edit_non_empty_name(app, db):
                     index_group = i
             old_groups[index_group] = group
             assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
+            if check_ui:
+                assert sorted(new_groups, key=Group.id_or_max) == sorted(app.group.get_group_list(), key=Group.id_or_max)
 
 # тест с индексом
 

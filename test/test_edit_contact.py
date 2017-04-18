@@ -3,7 +3,7 @@ import random
 import re
 
 
-def test_edit_contact(app, db):
+def test_edit_contact(app, db, check_ui):
     old_contacts = db.get_contact_list()
     contact = Contact(firstname="Nikolay", lastname="Elagin", nickname="Kolja", title="123", company="IT",
                       address="Kazan", homephone="12345678", mobilephone="123456789", email="kolja@nikolay.de",
@@ -30,12 +30,15 @@ def test_edit_contact(app, db):
                 index_contact = i
         old_contacts[index_contact] = contact
         assert sorted(old_contacts, key=Contact.id_or_max) == sorted(new_contacts, key=Contact.id_or_max)
+        if check_ui:
+            assert sorted(new_contacts, key=Contact.id_or_max) == sorted(app.contact.get_contact_list(),
+                                                                         key=Contact.id_or_max)
         #Все тесты на редактирование контактов будут падать, т.к. при редактировании записи в БД,
         # вместо редактирования нужной записи, добавляется новая запись с таким же id, соот-но при сравнении
         # длины и содержимого список будут расхождения
 
 
-def test_edit_empty_name(app, db):
+def test_edit_empty_name(app, db, check_ui):
     old_contacts = db.get_contact_list()
     contact = Contact(firstname="Ivan", lastname="Taranov")
     if app.contact.count() == 0:
@@ -62,9 +65,12 @@ def test_edit_empty_name(app, db):
                     index_contact = i
             old_contacts[index_contact] = contact
             assert sorted(old_contacts, key=Contact.id_or_max) == sorted(new_contacts, key=Contact.id_or_max)
+            if check_ui:
+                assert sorted(new_contacts, key=Contact.id_or_max) == sorted(app.contact.get_contact_list(),
+                                                                             key=Contact.id_or_max)
 
 
-def test_edit_non_empty_name(app, db):
+def test_edit_non_empty_name(app, db, check_ui):
     old_contacts = db.get_contact_list()
     contact = Contact(firstname="", lastname="")
     if app.contact.count() == 0:
@@ -89,3 +95,6 @@ def test_edit_non_empty_name(app, db):
                     index_contact = i
             old_contacts[index_contact] = contact
             assert sorted(old_contacts, key=Contact.id_or_max) == sorted(new_contacts, key=Contact.id_or_max)
+            if check_ui:
+                assert sorted(new_contacts, key=Contact.id_or_max) == sorted(app.contact.get_contact_list(),
+                                                                             key=Contact.id_or_max)
