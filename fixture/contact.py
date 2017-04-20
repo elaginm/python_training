@@ -20,6 +20,15 @@ class ContactHelper:
         self.return_to_homepage()
         self.contact_cache = None
 
+    def add_contact_to_group_by_name(self, contact_id, gr_id):
+        wd = self.app.wd
+        self.select_contact_by_id(contact_id)
+        wd.find_element_by_name("to_group").click()
+        select = Select(wd.find_element_by_name("to_group"))
+        select.select_by_value(gr_id)
+        wd.find_element_by_xpath('//input[@value="Add to"]').click()
+        wd.find_element_by_xpath('//i//*[contains(text(),"group page")]').click()
+
     def edit_empty_name(self, index):
         wd = self.app.wd
         self.app.open_home_page()
