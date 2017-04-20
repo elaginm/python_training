@@ -11,6 +11,10 @@ class ContactHelper:
         wd = self.app.wd
         wd.find_element_by_link_text("add new").click()
 
+    def open_home(self):
+        wd = self.app.wd
+        wd.find_element_by_link_text("home").click()
+
     def create(self, contact):
         wd = self.app.wd
         self.open_new_address()
@@ -20,14 +24,20 @@ class ContactHelper:
         self.return_to_homepage()
         self.contact_cache = None
 
-    def add_contact_to_group_by_name(self, contact_id, gr_id):
+    def add_contact_to_group_by_name(self, contact_id, group_id):
         wd = self.app.wd
+        self.open_home()
         self.select_contact_by_id(contact_id)
         wd.find_element_by_name("to_group").click()
         select = Select(wd.find_element_by_name("to_group"))
-        select.select_by_value(gr_id)
+        select.select_by_value(group_id)
         wd.find_element_by_xpath('//input[@value="Add to"]').click()
         wd.find_element_by_xpath('//i//*[contains(text(),"group page")]').click()
+
+    def sort_by_group_by_id(self, group_id):
+        wd = self.app.wd
+        select = Select(wd.find_element_by_xpath('//select[@name="group"]'))
+        select.select_by_value(group_id)
 
     def edit_empty_name(self, index):
         wd = self.app.wd
@@ -220,4 +230,17 @@ class ContactHelper:
         return Contact(id=id, firstname=firstname, lastname=lastname, address=address,
                                           all_emails_from_home_page=all_emails, all_phones_from_home_page=all_phones)
 
+    def get_contact_info_by_id(self, contact_id):
+        wd = self.app.wd
+        self.app.open_home_page()
+        row = wd.find_element_by_xpath('//td/*[@id="'+contact_id+'"]/../..')
+        cells = row.find_elements_by_tag_name("td")
+        id = cells[0].find_element_by_tag_name("input").get_attribute("value")
+        firstname = cells[2].text
+        lastname = cells[1].text
+        address = cells[3].text
+        all_emails = cells[4].text
+        all_phones = cells[5].text
+        return Contact(id=id, firstname=firstname, lastname=lastname, address=address,
+                       all_emails_from_home_page=all_emails, all_phones_from_home_page=all_phones)
 
