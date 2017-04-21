@@ -11,10 +11,6 @@ class ContactHelper:
         wd = self.app.wd
         wd.find_element_by_link_text("add new").click()
 
-    def open_home(self):
-        wd = self.app.wd
-        wd.find_element_by_link_text("home").click()
-
     def create(self, contact):
         wd = self.app.wd
         self.open_new_address()
@@ -26,7 +22,7 @@ class ContactHelper:
 
     def add_contact_to_group_by_name(self, contact_id, group_id):
         wd = self.app.wd
-        self.open_home()
+        self.app.open_home_page()
         self.select_contact_by_id(contact_id)
         wd.find_element_by_name("to_group").click()
         select = Select(wd.find_element_by_name("to_group"))
@@ -243,4 +239,8 @@ class ContactHelper:
         all_phones = cells[5].text
         return Contact(id=id, firstname=firstname, lastname=lastname, address=address,
                        all_emails_from_home_page=all_emails, all_phones_from_home_page=all_phones)
+
+    def find_contact_in_group_and_delete(self, group_id):
+        wd = self.app.wd
+        self.app.open_home_page()
 

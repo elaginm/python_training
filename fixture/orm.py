@@ -16,6 +16,7 @@ class ORMFixture:
         footer = Optional(str, column='group_footer')
         contacts = Set(lambda: ORMFixture.ORMContact, table="address_in_groups", column="id", reverse="groups", lazy=True)
 
+
     class ORMContact(db.Entity):
         _table_ = 'addressbook'
         id = PrimaryKey(int, column='id')
@@ -37,9 +38,18 @@ class ORMFixture:
             return Group(id=str(group.id), name=group.name, header=group.header, footer=group.footer)
         return list(map(convert, groups))
 
+    def convert_groups_to_model_by_id(self,groups):
+        def convert(group):
+            return Group(id=str(group.id))
+        return list(map(convert, groups))
+
     @db_session
     def get_group_list(self):
         return self.convert_groups_to_model(select(g for g in ORMFixture.ORMGroup))
+
+    @db_session
+    def get_group_list_by_id(self):
+        return self.convert_groups_to_model_by_id(select(g for g in ORMFixture.ORMGroupid))
 
     def convert_contacts_to_model(self, contacts):
         def convert(contact):
