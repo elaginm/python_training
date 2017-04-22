@@ -240,7 +240,16 @@ class ContactHelper:
         return Contact(id=id, firstname=firstname, lastname=lastname, address=address,
                        all_emails_from_home_page=all_emails, all_phones_from_home_page=all_phones)
 
-    def find_contact_in_group_and_delete(self, group_id):
+    def select_group_in_filter_by_id(self, group_id):
         wd = self.app.wd
         self.app.open_home_page()
+       # wd.find_element_by_name("group").click()
+        select = Select(wd.find_element_by_xpath('//select[@name="group"]'))
+        select.select_by_value(group_id)
 
+    def delete_contact_from_group(self, id):
+        wd = self.app.wd
+        self.select_contact_by_id(id)
+        wd.find_element_by_xpath('//input[@name="remove"]').click()
+        wd.find_element_by_xpath('//i//*[contains(text(),"group page")]').click()
+        self.contact_cache = None

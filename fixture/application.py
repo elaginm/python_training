@@ -10,8 +10,10 @@ class Application:
         if browser == "firefox":
             self.wd = webdriver.Firefox()
         elif browser == "chrome":
-            # self.wd = webdriver.Chrome(executable_path="C:\Project\Chromedriver.exe")
-            self.wd = webdriver.Chrome()
+            try:
+                self.wd = webdriver.Chrome(executable_path="C:\Project\Chromedriver.exe")
+            except:
+                self.wd = webdriver.Chrome()
         elif browser == "ie":
             self.wd = webdriver.Ie(executable_path="C:\Project\IEDriverServer.exe")
         else:
