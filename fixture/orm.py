@@ -43,8 +43,9 @@ class ORMFixture:
 
     def convert_contacts_to_model(self, contacts):
         def convert(contact):
-            return Contact(id=str(contact.id), firstname=contact.firstname, lastname=contact.lastname)
-        return list(map(convert, contacts))
+            if contact.deprecated is None:
+                return Contact(id=str(contact.id), firstname=contact.firstname, lastname=contact.lastname)
+        return list(filter(lambda x: x is not None, map(convert, contacts)))
 
     @db_session
     def get_contact_list(self):
