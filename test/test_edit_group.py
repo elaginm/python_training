@@ -1,6 +1,5 @@
 from model.group import Group
 import random
-import re
 
 
 def test_edit_name(app, db, check_ui):
@@ -13,38 +12,31 @@ def test_edit_name(app, db, check_ui):
         new_groups = db.get_group_list()
         assert len(old_groups) == len(new_groups)
     else:
-        random_group = random.choice(old_groups)
-        group.id = random_group.id
-        app.group.edit_group_by_id(random_group.id, group)
+        l = len(old_groups)
+        random_group_index = random.randrange(l)
+        group.id = old_groups[random_group_index].id
+        app.group.edit_group_by_id(group.id, group)
         new_groups = db.get_group_list()
         assert len(old_groups) == len(new_groups)
-        result = re.match('^[^:]*', str(random_group))
-        id = result.group(0)
-        for i in range(len(old_groups)):
-            result_old_group = re.match('^[^:]*', str(old_groups[i]))
-            id_old_group = result_old_group.group(0)
-            if int(id_old_group) == int(id):
-                index_group = i
-        old_groups[index_group] = group
+        old_groups[random_group_index] = group
         assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
         if check_ui:
             assert sorted(new_groups, key=Group.id_or_max) == sorted(app.group.get_group_list(), key=Group.id_or_max)
-
-
-# def test_edit_header(app):
-#     old_groups = app.group.get_group_list()
-#     group = Group(header="Users")
-#     if app.group.count() == 0:
-#         app.group.create(Group(header="test"))
-#         app.group.edit_first_group(group)
-#         app.group.delete_first_group()
-#         new_groups = app.group.get_group_list()
-#         assert len(old_groups) == len(new_groups)
-#     else:
-#         app.group.edit_first_group(group)
-#         new_groups = app.group.get_group_list()
-#         assert len(old_groups) == len(new_groups)
-
+        # random_group = random.choice(old_groups)
+        # group.id = random_group.id
+        # app.group.edit_group_by_id(group.id, group)
+        # new_groups = db.get_group_list()
+        # assert len(old_groups) == len(new_groups)
+        # result = re.match('^[^:]*', str(random_group))
+        # id = result.group(0)
+        # index_group = None
+        # i = 0
+        # while index_group is None and i in range(len(old_groups)):
+        #     result_old_group = re.match('^[^:]*', str(old_groups[i]))
+        #     id_old_group = result_old_group.group(0)
+        #     if (int(id_old_group) == int(id)):
+        #         index_group = i
+        #     i+=1
 
 def test_edit_empty_name(app, db, check_ui):
     old_groups = db.get_group_list()
@@ -56,23 +48,16 @@ def test_edit_empty_name(app, db, check_ui):
         new_groups = db.get_group_list()
         assert len(old_groups) == len(new_groups)
     else:
-        random_group = random.choice(old_groups)
-        if app.group.empty_name(random_group.id):
+        l = len(old_groups)
+        random_group_index = random.randrange(l)
+        group.id = old_groups[random_group_index].id
+        if app.group.empty_name(group.id):
             app.open_home_page()
         else:
-            group.id = random_group.id
-            app.group.edit_group_by_id(random_group.id, group)
-            assert len(old_groups) == app.group.count()
+            app.group.edit_group_by_id(group.id, group)
             new_groups = db.get_group_list()
             assert len(old_groups) == len(new_groups)
-            result = re.match('^[^:]*', str(random_group))
-            id = result.group(0)
-            for i in range(len(old_groups)):
-                result_old_group = re.match('^[^:]*', str(old_groups[i]))
-                id_old_group = result_old_group.group(0)
-                if int(id_old_group) == int(id):
-                    index_group = i
-            old_groups[index_group] = group
+            old_groups[random_group_index] = group
             assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
             if check_ui:
                 assert sorted(new_groups, key=Group.id_or_max) == sorted(app.group.get_group_list(),
@@ -89,20 +74,14 @@ def test_edit_non_empty_name(app, db, check_ui):
         new_groups = db.get_group_list()
         assert len(old_groups) == len(new_groups)
     else:
-        random_group = random.choice(old_groups)
-        if app.group.empty_name(random_group.id):
-            group.id = random_group.id
-            app.group.edit_group_by_id(random_group.id, group)
+        l = len(old_groups)
+        random_group_index = random.randrange(l)
+        group.id = old_groups[random_group_index].id
+        if app.group.empty_name(group.id):
+            app.group.edit_group_by_id(group.id, group)
             new_groups = db.get_group_list()
             assert len(old_groups) == len(new_groups)
-            result = re.match('^[^:]*', str(random_group))
-            id = result.group(0)
-            for i in range(len(old_groups)):
-                result_old_group = re.match('^[^:]*', str(old_groups[i]))
-                id_old_group = result_old_group.group(0)
-                if int(id_old_group) == int(id):
-                    index_group = i
-            old_groups[index_group] = group
+            old_groups[random_group_index] = group
             assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
             if check_ui:
                 assert sorted(new_groups, key=Group.id_or_max) == sorted(app.group.get_group_list(), key=Group.id_or_max)
