@@ -1,0 +1,35 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1494524881688" stop="1494524882501">
+  <name>test.test_delete_contact</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1494524881688" status="passed" stop="1494524882501">
+      <name>test_delete_some_contact</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3252-MainThread"/>
+        <label name="host" value="Mishanja"/>
+      </labels>
+      <steps>
+        <step start="1494524881726" status="passed" stop="1494524881732">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1494524881732" status="passed" stop="1494524882303">
+          <name>When I delete a contact 50:firstname1:lastname1 from the list</name>
+          <title>When I delete a contact 50:firstname1:lastname1 from the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1494524882303" status="passed" stop="1494524882501">
+          <name>Then the new contact list is equal to the old list without the deleted contact</name>
+          <title>Then the new contact list is equal to the old list without the deleted contact</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

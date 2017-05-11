@@ -1,0 +1,89 @@
+{
+  "uid" : "7015ba6332ae14b6",
+  "name" : "test_delete_some_group",
+  "title" : "Test delete some group",
+  "time" : {
+    "start" : 1494524882504,
+    "stop" : 1494524883169,
+    "duration" : 665
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5b8183c035644f4e",
+    "name" : "test.test_delete_group",
+    "title" : "Test delete group"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1494524882609,
+      "stop" : 1494524882613,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I delete a group 77:Test:: from the list",
+    "title" : "When I delete a group 77:Test:: from the list",
+    "time" : {
+      "start" : 1494524882613,
+      "stop" : 1494524883164,
+      "duration" : 551
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new group list is equal to the old list without the deleted group",
+    "title" : "Then the new group list is equal to the old list without the deleted group",
+    "time" : {
+      "start" : 1494524883164,
+      "stop" : 1494524883169,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test.test_delete_group"
+  }, {
+    "name" : "host",
+    "value" : "Mishanja"
+  }, {
+    "name" : "thread",
+    "value" : "3252-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

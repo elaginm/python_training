@@ -1,0 +1,212 @@
+{
+  "testCases" : [ {
+    "uid" : "7015ba6332ae14b6",
+    "name" : "test_delete_some_group",
+    "title" : "Test delete some group",
+    "time" : {
+      "start" : 1494524882504,
+      "stop" : 1494524883169,
+      "duration" : 665
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "bbdb04e53a84fe1f",
+    "name" : "test_group_list",
+    "title" : "Test group list",
+    "time" : {
+      "start" : 1494524879100,
+      "stop" : 1494524881629,
+      "duration" : 2529
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "60d47f1254780f5a",
+    "name" : "test_contact_list",
+    "title" : "Test contact list",
+    "time" : {
+      "start" : 1494524881630,
+      "stop" : 1494524881687,
+      "duration" : 57
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "50e63956d6f7499d",
+    "name" : "test_phones_on_home_page",
+    "title" : "Test phones on home page",
+    "time" : {
+      "start" : 1494524892574,
+      "stop" : 1494524896722,
+      "duration" : 4148
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c80e5ba3b354ee04",
+    "name" : "test_phones_on_contact_view_page",
+    "title" : "Test phones on contact view page",
+    "time" : {
+      "start" : 1494524896723,
+      "stop" : 1494524897779,
+      "duration" : 1056
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "45bbd3677c24e96f",
+    "name" : "test_edit_contact",
+    "title" : "Test edit contact",
+    "time" : {
+      "start" : 1494524883171,
+      "stop" : 1494524886644,
+      "duration" : 3473
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3fa159c8d545f711",
+    "name" : "test_edit_empty_name",
+    "title" : "Test edit empty name",
+    "time" : {
+      "start" : 1494524886646,
+      "stop" : 1494524888730,
+      "duration" : 2084
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "f74c36c35b4aa04b",
+    "name" : "test_edit_non_empty_name",
+    "title" : "Test edit non empty name",
+    "time" : {
+      "start" : 1494524888733,
+      "stop" : 1494524890535,
+      "duration" : 1802
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "bc369267fd63cbd1",
+    "name" : "test_add_contact[None::]",
+    "title" : "Test add contact [None::]",
+    "time" : {
+      "start" : 1494524855595,
+      "stop" : 1494524861797,
+      "duration" : 6202
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "672f9f2830c9954a",
+    "name" : "test_add_contact[None:firstnameupBXGgNyi:lastnamea03UV891P]",
+    "title" : "Test add contact [None:firstnameupBXGgNyi:lastnamea03UV891P]",
+    "time" : {
+      "start" : 1494524861798,
+      "stop" : 1494524864077,
+      "duration" : 2279
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d2133f453a529c8",
+    "name" : "test_add_contact[None:firstnameXAd4 FO:lastnamecbbw]",
+    "title" : "Test add contact [None:firstnameXAd4 FO:lastnamecbbw]",
+    "time" : {
+      "start" : 1494524864078,
+      "stop" : 1494524866260,
+      "duration" : 2182
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "2598c51c8dfdccca",
+    "name" : "test_edit_name",
+    "title" : "Test edit name",
+    "time" : {
+      "start" : 1494524890537,
+      "stop" : 1494524891567,
+      "duration" : 1030
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "59a581c37b43bd33",
+    "name" : "test_edit_empty_name",
+    "title" : "Test edit empty name",
+    "time" : {
+      "start" : 1494524891568,
+      "stop" : 1494524892035,
+      "duration" : 467
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b0a6692b1936c060",
+    "name" : "test_edit_non_empty_name",
+    "title" : "Test edit non empty name",
+    "time" : {
+      "start" : 1494524892040,
+      "stop" : 1494524892573,
+      "duration" : 533
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "308020ec1448a8fa",
+    "name" : "test_add_group[None:::]",
+    "title" : "Test add group [None:::]",
+    "time" : {
+      "start" : 1494524866260,
+      "stop" : 1494524867471,
+      "duration" : 1211
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e4565923169a9640",
+    "name" : "test_add_group[None:name,!Lzt:headerE#fv.8nz5t:\\\\_R2:footer&{po(Q]",
+    "title" : "Test add group [None:name,!Lzt:headerE#fv.8nz5t:\\\\_R2:footer&{po(Q]",
+    "time" : {
+      "start" : 1494524867472,
+      "stop" : 1494524868525,
+      "duration" : 1053
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d052faa40d904e5d",
+    "name" : "test_add_group[None:name:header;.n,Fz:footer.;4hAsC>]RJm-u]",
+    "title" : "Test add group [None:name:header;.n,Fz:footer.;4hAsC>]RJm-u]",
+    "time" : {
+      "start" : 1494524868526,
+      "stop" : 1494524869531,
+      "duration" : 1005
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f467879ca54af921",
+    "name" : "test_contact_info_on_home_page",
+    "title" : "Test contact info on home page",
+    "time" : {
+      "start" : 1494524869532,
+      "stop" : 1494524879100,
+      "duration" : 9568
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6e66c12542e572e7",
+    "name" : "test_delete_some_contact",
+    "title" : "Test delete some contact",
+    "time" : {
+      "start" : 1494524881688,
+      "stop" : 1494524882501,
+      "duration" : 813
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

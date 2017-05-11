@@ -1,0 +1,44 @@
+{
+  "uid" : "60d47f1254780f5a",
+  "name" : "test_contact_list",
+  "title" : "Test contact list",
+  "time" : {
+    "start" : 1494524881630,
+    "stop" : 1494524881687,
+    "duration" : 57
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "21f02182c5fb518e",
+    "name" : "test.test_db_matches_ui",
+    "title" : "Test db matches ui"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Mishanja"
+  }, {
+    "name" : "thread",
+    "value" : "3252-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_db_matches_ui"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

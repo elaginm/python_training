@@ -1,0 +1,89 @@
+{
+  "uid" : "bc369267fd63cbd1",
+  "name" : "test_add_contact[None::]",
+  "title" : "Test add contact [None::]",
+  "time" : {
+    "start" : 1494524855595,
+    "stop" : 1494524861797,
+    "duration" : 6202
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5ce2ea55d4798581",
+    "name" : "test.test_add_contact",
+    "title" : "Test add contact"
+  },
+  "steps" : [ {
+    "name" : "Given a contact list",
+    "title" : "Given a contact list",
+    "time" : {
+      "start" : 1494524859938,
+      "stop" : 1494524859942,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add a contact None:: to the list",
+    "title" : "When I add a contact None:: to the list",
+    "time" : {
+      "start" : 1494524859942,
+      "stop" : 1494524861789,
+      "duration" : 1847
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new contact list is equal to the old list with the added contact",
+    "title" : "Then the new contact list is equal to the old list with the added contact",
+    "time" : {
+      "start" : 1494524861789,
+      "stop" : 1494524861796,
+      "duration" : 7
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Mishanja"
+  }, {
+    "name" : "thread",
+    "value" : "3252-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_add_contact"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

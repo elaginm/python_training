@@ -1,0 +1,16 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1494524869532" stop="1494524879100">
+  <name>test.test_contact_info</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1494524869532" status="passed" stop="1494524879100">
+      <name>test_contact_info_on_home_page</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3252-MainThread"/>
+        <label name="host" value="Mishanja"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

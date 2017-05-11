@@ -1,0 +1,89 @@
+{
+  "uid" : "2598c51c8dfdccca",
+  "name" : "test_edit_name",
+  "title" : "Test edit name",
+  "time" : {
+    "start" : 1494524890537,
+    "stop" : 1494524891567,
+    "duration" : 1030
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3618c0f8048b6f64",
+    "name" : "test.test_edit_group",
+    "title" : "Test edit group"
+  },
+  "steps" : [ {
+    "name" : "Given a non-empty group list",
+    "title" : "Given a non-empty group list",
+    "time" : {
+      "start" : 1494524890650,
+      "stop" : 1494524891567,
+      "duration" : 917
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 2
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "I modify the group 80:New group:None:None in the list",
+      "title" : "I modify the group 80:New group:None:None in the list",
+      "time" : {
+        "start" : 1494524890826,
+        "stop" : 1494524891563,
+        "duration" : 737
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "the new group list is equal to the old list with the modified group",
+      "title" : "the new group list is equal to the old list with the modified group",
+      "time" : {
+        "start" : 1494524891563,
+        "stop" : 1494524891567,
+        "duration" : 4
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Mishanja"
+  }, {
+    "name" : "thread",
+    "value" : "3252-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_edit_group"
+  } ],
+  "parameters" : [ ]
+}

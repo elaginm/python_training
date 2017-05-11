@@ -1,0 +1,44 @@
+{
+  "uid" : "c80e5ba3b354ee04",
+  "name" : "test_phones_on_contact_view_page",
+  "title" : "Test phones on contact view page",
+  "time" : {
+    "start" : 1494524896723,
+    "stop" : 1494524897779,
+    "duration" : 1056
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e72487ca246167be",
+    "name" : "test.test_phones",
+    "title" : "Test phones"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Mishanja"
+  }, {
+    "name" : "thread",
+    "value" : "3252-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_phones"
+  } ],
+  "parameters" : [ ]
+}

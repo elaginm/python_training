@@ -1,0 +1,26 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1494524892574" stop="1494524897779">
+  <name>test.test_phones</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1494524892574" status="passed" stop="1494524896722">
+      <name>test_phones_on_home_page</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3252-MainThread"/>
+        <label name="host" value="Mishanja"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1494524896723" status="passed" stop="1494524897779">
+      <name>test_phones_on_contact_view_page</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3252-MainThread"/>
+        <label name="host" value="Mishanja"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

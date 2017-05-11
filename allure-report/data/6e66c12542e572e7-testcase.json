@@ -1,0 +1,89 @@
+{
+  "uid" : "6e66c12542e572e7",
+  "name" : "test_delete_some_contact",
+  "title" : "Test delete some contact",
+  "time" : {
+    "start" : 1494524881688,
+    "stop" : 1494524882501,
+    "duration" : 813
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "bc9b68a3949261d7",
+    "name" : "test.test_delete_contact",
+    "title" : "Test delete contact"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1494524881726,
+      "stop" : 1494524881732,
+      "duration" : 6
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I delete a contact 50:firstname1:lastname1 from the list",
+    "title" : "When I delete a contact 50:firstname1:lastname1 from the list",
+    "time" : {
+      "start" : 1494524881732,
+      "stop" : 1494524882303,
+      "duration" : 571
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new contact list is equal to the old list without the deleted contact",
+    "title" : "Then the new contact list is equal to the old list without the deleted contact",
+    "time" : {
+      "start" : 1494524882303,
+      "stop" : 1494524882501,
+      "duration" : 198
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Mishanja"
+  }, {
+    "name" : "thread",
+    "value" : "3252-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_delete_contact"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

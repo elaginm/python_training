@@ -1,0 +1,89 @@
+{
+  "uid" : "a2c67ead36038dc2",
+  "name" : "test_add_group[None:::]",
+  "title" : "Test add group [None:::]",
+  "time" : {
+    "start" : 1494462565511,
+    "stop" : 1494462570908,
+    "duration" : 5397
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c4c62c1b413495e6",
+    "name" : "test.test_add_group",
+    "title" : "Test add group"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1494462569774,
+      "stop" : 1494462569776,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add a group None::: to the list",
+    "title" : "When I add a group None::: to the list",
+    "time" : {
+      "start" : 1494462569776,
+      "stop" : 1494462570906,
+      "duration" : 1130
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new group list is equal to the old list with the added group",
+    "title" : "Then the new group list is equal to the old list with the added group",
+    "time" : {
+      "start" : 1494462570906,
+      "stop" : 1494462570907,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Mishanja"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_add_group"
+  }, {
+    "name" : "thread",
+    "value" : "8384-MainThread"
+  } ],
+  "parameters" : [ ]
+}

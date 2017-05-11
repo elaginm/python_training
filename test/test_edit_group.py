@@ -57,7 +57,7 @@ def test_edit_empty_name(app, db, check_ui):
             l = len(old_groups)
             random_group_index = random.randrange(l)
             group.id = old_groups[random_group_index].id
-        with pytest.allure.step('I modify the group %s in the list' % group):
+        with pytest.allure.step('I modify the group with id=%s in the list' % group.id):
             if app.group.empty_name(group.id):
                 app.open_home_page()
             else:

@@ -1,0 +1,44 @@
+{
+  "uid" : "50e63956d6f7499d",
+  "name" : "test_phones_on_home_page",
+  "title" : "Test phones on home page",
+  "time" : {
+    "start" : 1494524892574,
+    "stop" : 1494524896722,
+    "duration" : 4148
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e72487ca246167be",
+    "name" : "test.test_phones",
+    "title" : "Test phones"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Mishanja"
+  }, {
+    "name" : "thread",
+    "value" : "3252-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_phones"
+  } ],
+  "parameters" : [ ]
+}

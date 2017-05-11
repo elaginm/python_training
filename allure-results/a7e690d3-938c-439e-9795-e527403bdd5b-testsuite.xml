@@ -1,0 +1,93 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1494524866260" stop="1494524869531">
+  <name>test.test_add_group</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1494524866260" status="passed" stop="1494524867471">
+      <name>test_add_group[None:::]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3252-MainThread"/>
+        <label name="host" value="Mishanja"/>
+      </labels>
+      <steps>
+        <step start="1494524866381" status="passed" stop="1494524866383">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1494524866383" status="passed" stop="1494524867466">
+          <name>When I add a group None::: to the list</name>
+          <title>When I add a group None::: to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1494524867466" status="passed" stop="1494524867471">
+          <name>Then the new group list is equal to the old list with the added group</name>
+          <title>Then the new group list is equal to the old list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1494524867472" status="passed" stop="1494524868525">
+      <name>test_add_group[None:name,!Lzt:headerE#fv.8nz5t:\\_R2:footer&amp;{po(Q]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3252-MainThread"/>
+        <label name="host" value="Mishanja"/>
+      </labels>
+      <steps>
+        <step start="1494524867536" status="passed" stop="1494524867538">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1494524867538" status="passed" stop="1494524868520">
+          <name>When I add a group None:name,!Lzt:headerE#fv.8nz5t:\_R2:footer&amp;{po(Q to the list</name>
+          <title>When I add a group None:name,!Lzt:headerE#fv.8nz5t:\_R2:footer&amp;{po(Q to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1494524868520" status="passed" stop="1494524868525">
+          <name>Then the new group list is equal to the old list with the added group</name>
+          <title>Then the new group list is equal to the old list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1494524868526" status="passed" stop="1494524869531">
+      <name>test_add_group[None:name:header;.n,Fz:footer.;4hAsC&gt;]RJm-u]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3252-MainThread"/>
+        <label name="host" value="Mishanja"/>
+      </labels>
+      <steps>
+        <step start="1494524868588" status="passed" stop="1494524868590">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1494524868590" status="passed" stop="1494524869527">
+          <name>When I add a group None:name:header;.n,Fz:footer.;4hAsC&gt;]RJm-u to the list</name>
+          <title>When I add a group None:name:header;.n,Fz:footer.;4hAsC&gt;]RJm-u to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1494524869527" status="passed" stop="1494524869530">
+          <name>Then the new group list is equal to the old list with the added group</name>
+          <title>Then the new group list is equal to the old list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

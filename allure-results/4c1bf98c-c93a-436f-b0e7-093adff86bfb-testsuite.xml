@@ -1,0 +1,139 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1494524883171" stop="1494524890535">
+  <name>test.test_edit_contact</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1494524883171" status="passed" stop="1494524886644">
+      <name>test_edit_contact</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3252-MainThread"/>
+        <label name="host" value="Mishanja"/>
+      </labels>
+      <steps>
+        <step start="1494524883240" status="passed" stop="1494524886643">
+          <name>Given a non-empty group list</name>
+          <title>Given a non-empty group list</title>
+          <attachments/>
+          <steps>
+            <step start="1494524883384" status="passed" stop="1494524886632">
+              <name>When I modify a contact with id=66 in the list</name>
+              <title>When I modify a contact with id=66 in the list</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1494524886632" status="passed" stop="1494524886643">
+              <name>Then the new contact list is equal to the old list with the modified contact</name>
+              <title>Then the new contact list is equal to the old list with the modified contact</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1494524886646" status="failed" stop="1494524888730">
+      <name>test_edit_empty_name</name>
+      <failure>
+        <message>AssertionError: assert [44:firstname...y:Elagin, ...] == [44:firstnameu...astname1, ...]
+  At index 4 diff: 55:firstname1:lastname1 != 54:Ivan:Taranov
+  Use -v to get the full diff</message>
+        <stack-trace>app = &lt;fixture.application.Application object at 0x03C13ED0&gt;
+db = &lt;fixture.db.DbFixture object at 0x03C13B90&gt;, check_ui = False
+
+    def test_edit_empty_name(app, db, check_ui):
+        with pytest.allure.step('Given a non-empty group list'):
+            old_contacts = db.get_contact_list()
+            contact = Contact(firstname="Ivan", lastname="Taranov")
+            if app.contact.count() == 0:
+                app.contact.create(Contact(firstname="", lastname=""))
+                app.contact.edit_first_contact(contact)
+                app.contact.delete_first_contact()
+                new_contacts = db.get_contact_list()
+                assert len(old_contacts) == len(new_contacts)
+            else:
+                random_contact = random.choice(old_contacts)
+                if app.contact.edit_empty_name_by_id(random_contact.id):
+                    app.open_home_page()
+                else:
+                    contact.id = random_contact.id
+                with pytest.allure.step('When I modify a contact with id=%s in the list' % contact.id):
+                    app.contact.edit_contact_by_id(random_contact.id, contact)
+                with pytest.allure.step('Then the new contact list is equal to the old list with the modified contact'):
+                    new_contacts = db.get_contact_list()
+                    assert len(old_contacts) == len(new_contacts)
+                    result = re.match('^[^:]*', str(random_contact))
+                    id = result.group(0)
+                    for i in range(len(old_contacts)):
+                        result_old_contacts = re.match('^[^:]*', str(old_contacts[i]))
+                        id_old_contacts = result_old_contacts.group(0)
+                        if int(id_old_contacts) == int(id):
+                            index_contact = i
+                    old_contacts[index_contact] = contact
+&gt;                   assert sorted(old_contacts, key=Contact.id_or_max) == sorted(new_contacts, key=Contact.id_or_max)
+E                   assert [44:firstname...y:Elagin, ...] == [44:firstnameu...astname1, ...]
+E                     At index 4 diff: 55:firstname1:lastname1 != 54:Ivan:Taranov
+E                     Use -v to get the full diff
+
+test\test_edit_contact.py:72: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3252-MainThread"/>
+        <label name="host" value="Mishanja"/>
+      </labels>
+      <steps>
+        <step start="1494524886758" status="failed" stop="1494524888699">
+          <name>Given a non-empty group list</name>
+          <title>Given a non-empty group list</title>
+          <attachments/>
+          <steps>
+            <step start="1494524887480" status="passed" stop="1494524888696">
+              <name>When I modify a contact with id=None in the list</name>
+              <title>When I modify a contact with id=None in the list</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1494524888696" status="failed" stop="1494524888699">
+              <name>Then the new contact list is equal to the old list with the modified contact</name>
+              <title>Then the new contact list is equal to the old list with the modified contact</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1494524888733" status="passed" stop="1494524890535">
+      <name>test_edit_non_empty_name</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3252-MainThread"/>
+        <label name="host" value="Mishanja"/>
+      </labels>
+      <steps>
+        <step start="1494524888842" status="passed" stop="1494524890535">
+          <name>Given a non-empty group list</name>
+          <title>Given a non-empty group list</title>
+          <attachments/>
+          <steps>
+            <step start="1494524889393" status="passed" stop="1494524890530">
+              <name>When I modify a contact with id=49 in the list</name>
+              <title>When I modify a contact with id=49 in the list</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1494524890530" status="passed" stop="1494524890535">
+              <name>Then the new contact list is equal to the old list with the modified contact</name>
+              <title>Then the new contact list is equal to the old list with the modified contact</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,89 @@
+{
+  "uid" : "f74c36c35b4aa04b",
+  "name" : "test_edit_non_empty_name",
+  "title" : "Test edit non empty name",
+  "time" : {
+    "start" : 1494524888733,
+    "stop" : 1494524890535,
+    "duration" : 1802
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e51665913441e3f0",
+    "name" : "test.test_edit_contact",
+    "title" : "Test edit contact"
+  },
+  "steps" : [ {
+    "name" : "Given a non-empty group list",
+    "title" : "Given a non-empty group list",
+    "time" : {
+      "start" : 1494524888842,
+      "stop" : 1494524890535,
+      "duration" : 1693
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 2
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "When I modify a contact with id=49 in the list",
+      "title" : "When I modify a contact with id=49 in the list",
+      "time" : {
+        "start" : 1494524889393,
+        "stop" : 1494524890530,
+        "duration" : 1137
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Then the new contact list is equal to the old list with the modified contact",
+      "title" : "Then the new contact list is equal to the old list with the modified contact",
+      "time" : {
+        "start" : 1494524890530,
+        "stop" : 1494524890535,
+        "duration" : 5
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test.test_edit_contact"
+  }, {
+    "name" : "host",
+    "value" : "Mishanja"
+  }, {
+    "name" : "thread",
+    "value" : "3252-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

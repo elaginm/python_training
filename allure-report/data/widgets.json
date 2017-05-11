@@ -1,0 +1,140 @@
+{
+  "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
+  "data" : [ {
+    "statistic" : {
+      "total" : 19,
+      "passed" : 18,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "time" : {
+      "start" : 1494524855595,
+      "stop" : 1494524897779,
+      "duration" : 42184
+    },
+    "name" : "total",
+    "type" : "TOTAL"
+  }, {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 1,
+      "message" : "AssertionError: assert [44:firstname...y:Elagin, ...] == [44:firstnameu...astname1, ...]\n  At index 4 diff: 55:firstname1:lastname1 != 54:Ivan:Taranov\n  Use -v to get the full diff",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Test edit contact",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Test add contact",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Test edit group",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Test add group",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Test db matches ui",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Test phones",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Test delete group",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Test contact info",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Test delete contact",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Without feature",
+      "statistic" : {
+        "total" : 19,
+        "passed" : 18,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}

@@ -1,0 +1,44 @@
+{
+  "uid" : "f467879ca54af921",
+  "name" : "test_contact_info_on_home_page",
+  "title" : "Test contact info on home page",
+  "time" : {
+    "start" : 1494524869532,
+    "stop" : 1494524879100,
+    "duration" : 9568
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3d197f2c7e92a210",
+    "name" : "test.test_contact_info",
+    "title" : "Test contact info"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Mishanja"
+  }, {
+    "name" : "thread",
+    "value" : "3252-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_contact_info"
+  } ],
+  "parameters" : [ ]
+}

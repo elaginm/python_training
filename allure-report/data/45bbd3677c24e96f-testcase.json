@@ -1,0 +1,89 @@
+{
+  "uid" : "45bbd3677c24e96f",
+  "name" : "test_edit_contact",
+  "title" : "Test edit contact",
+  "time" : {
+    "start" : 1494524883171,
+    "stop" : 1494524886644,
+    "duration" : 3473
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e51665913441e3f0",
+    "name" : "test.test_edit_contact",
+    "title" : "Test edit contact"
+  },
+  "steps" : [ {
+    "name" : "Given a non-empty group list",
+    "title" : "Given a non-empty group list",
+    "time" : {
+      "start" : 1494524883240,
+      "stop" : 1494524886643,
+      "duration" : 3403
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 2
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "When I modify a contact with id=66 in the list",
+      "title" : "When I modify a contact with id=66 in the list",
+      "time" : {
+        "start" : 1494524883384,
+        "stop" : 1494524886632,
+        "duration" : 3248
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Then the new contact list is equal to the old list with the modified contact",
+      "title" : "Then the new contact list is equal to the old list with the modified contact",
+      "time" : {
+        "start" : 1494524886632,
+        "stop" : 1494524886643,
+        "duration" : 11
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test.test_edit_contact"
+  }, {
+    "name" : "host",
+    "value" : "Mishanja"
+  }, {
+    "name" : "thread",
+    "value" : "3252-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

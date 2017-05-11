@@ -1,0 +1,84 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1494524890537" stop="1494524892573">
+  <name>test.test_edit_group</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1494524890537" status="passed" stop="1494524891567">
+      <name>test_edit_name</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3252-MainThread"/>
+        <label name="host" value="Mishanja"/>
+      </labels>
+      <steps>
+        <step start="1494524890650" status="passed" stop="1494524891567">
+          <name>Given a non-empty group list</name>
+          <title>Given a non-empty group list</title>
+          <attachments/>
+          <steps>
+            <step start="1494524890826" status="passed" stop="1494524891563">
+              <name>I modify the group 80:New group:None:None in the list</name>
+              <title>I modify the group 80:New group:None:None in the list</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1494524891563" status="passed" stop="1494524891567">
+              <name>the new group list is equal to the old list with the modified group</name>
+              <title>the new group list is equal to the old list with the modified group</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1494524891568" status="passed" stop="1494524892035">
+      <name>test_edit_empty_name</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3252-MainThread"/>
+        <label name="host" value="Mishanja"/>
+      </labels>
+      <steps>
+        <step start="1494524891630" status="passed" stop="1494524892035">
+          <name>Given a non-empty group list</name>
+          <title>Given a non-empty group list</title>
+          <attachments/>
+          <steps>
+            <step start="1494524891655" status="passed" stop="1494524892035">
+              <name>I modify the group with id=99 in the list</name>
+              <title>I modify the group with id=99 in the list</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1494524892040" status="passed" stop="1494524892573">
+      <name>test_edit_non_empty_name</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3252-MainThread"/>
+        <label name="host" value="Mishanja"/>
+      </labels>
+      <steps>
+        <step start="1494524892161" status="passed" stop="1494524892572">
+          <name>Given a non-empty group list</name>
+          <title>Given a non-empty group list</title>
+          <attachments/>
+          <steps>
+            <step start="1494524892326" status="passed" stop="1494524892572">
+              <name>I modify the group 61::None:None in the list</name>
+              <title>I modify the group 61::None:None in the list</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
