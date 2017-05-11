@@ -1,27 +1,32 @@
 from model.group import Group
 import random
+import pytest
 
 
 def test_edit_name(app, db, check_ui):
-    old_groups = db.get_group_list()
-    group = Group(name="New group")
-    if app.group.count() == 0:
-        app.group.create(Group(name="Test group"))
-        app.group.edit_first_group(group)
-        app.group.delete_first_group()
-        new_groups = db.get_group_list()
-        assert len(old_groups) == len(new_groups)
-    else:
-        l = len(old_groups)
-        random_group_index = random.randrange(l)
-        group.id = old_groups[random_group_index].id
-        app.group.edit_group_by_id(group.id, group)
-        new_groups = db.get_group_list()
-        assert len(old_groups) == len(new_groups)
-        old_groups[random_group_index] = group
-        assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
-        if check_ui:
-            assert sorted(new_groups, key=Group.id_or_max) == sorted(app.group.get_group_list(), key=Group.id_or_max)
+    with pytest.allure.step('Given a non-empty group list'):
+        old_groups = db.get_group_list()
+        group = Group(name="New group")
+        if app.group.count() == 0:
+            app.group.create(Group(name="Test group"))
+            app.group.edit_first_group(group)
+            app.group.delete_first_group()
+            new_groups = db.get_group_list()
+            assert len(old_groups) == len(new_groups)
+        else:
+            l = len(old_groups)
+            random_group_index = random.randrange(l)
+            group.id = old_groups[random_group_index].id
+            with pytest.allure.step('I modify the group %s in the list' % group):
+                app.group.edit_group_by_id(group.id, group)
+            with pytest.allure.step('the new group list is equal to the old list with the modified group'):
+                new_groups = db.get_group_list()
+                assert len(old_groups) == len(new_groups)
+                old_groups[random_group_index] = group
+                assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
+                if check_ui:
+                    with pytest.allure.step('check UI'):
+                        assert sorted(new_groups, key=Group.id_or_max) == sorted(app.group.get_group_list(), key=Group.id_or_max)
         # random_group = random.choice(old_groups)
         # group.id = random_group.id
         # app.group.edit_group_by_id(group.id, group)
@@ -39,52 +44,60 @@ def test_edit_name(app, db, check_ui):
         #     i+=1
 
 def test_edit_empty_name(app, db, check_ui):
-    old_groups = db.get_group_list()
-    group = Group(name="Test")
-    if app.group.count() == 0:
-        app.group.create(Group(name=""))
-        app.group.edit_first_group(group)
-        app.group.delete_first_group()
-        new_groups = db.get_group_list()
-        assert len(old_groups) == len(new_groups)
-    else:
-        l = len(old_groups)
-        random_group_index = random.randrange(l)
-        group.id = old_groups[random_group_index].id
-        if app.group.empty_name(group.id):
-            app.open_home_page()
-        else:
-            app.group.edit_group_by_id(group.id, group)
+    with pytest.allure.step('Given a non-empty group list'):
+        old_groups = db.get_group_list()
+        group = Group(name="Test")
+        if app.group.count() == 0:
+            app.group.create(Group(name=""))
+            app.group.edit_first_group(group)
+            app.group.delete_first_group()
             new_groups = db.get_group_list()
             assert len(old_groups) == len(new_groups)
-            old_groups[random_group_index] = group
-            assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
-            if check_ui:
-                assert sorted(new_groups, key=Group.id_or_max) == sorted(app.group.get_group_list(),
-                                                                         key=Group.id_or_max)
+        else:
+            l = len(old_groups)
+            random_group_index = random.randrange(l)
+            group.id = old_groups[random_group_index].id
+        with pytest.allure.step('I modify the group %s in the list' % group):
+            if app.group.empty_name(group.id):
+                app.open_home_page()
+            else:
+                app.group.edit_group_by_id(group.id, group)
+            with pytest.allure.step('the new group list is equal to the old list with the modified group'):
+                new_groups = db.get_group_list()
+                assert len(old_groups) == len(new_groups)
+                old_groups[random_group_index] = group
+                assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
+                if check_ui:
+                    with pytest.allure.step('check UI'):
+                        assert sorted(new_groups, key=Group.id_or_max) == sorted(app.group.get_group_list(),
+                                                                             key=Group.id_or_max)
 
 
 def test_edit_non_empty_name(app, db, check_ui):
-    old_groups = db.get_group_list()
-    group = Group(name="")
-    if app.group.count() == 0:
-        app.group.create(Group(name="Users"))
-        app.group.edit_first_group(group)
-        app.group.delete_first_group()
-        new_groups = db.get_group_list()
-        assert len(old_groups) == len(new_groups)
-    else:
-        l = len(old_groups)
-        random_group_index = random.randrange(l)
-        group.id = old_groups[random_group_index].id
-        if app.group.empty_name(group.id):
-            app.group.edit_group_by_id(group.id, group)
+    with pytest.allure.step('Given a non-empty group list'):
+        old_groups = db.get_group_list()
+        group = Group(name="")
+        if app.group.count() == 0:
+            app.group.create(Group(name="Users"))
+            app.group.edit_first_group(group)
+            app.group.delete_first_group()
             new_groups = db.get_group_list()
             assert len(old_groups) == len(new_groups)
-            old_groups[random_group_index] = group
-            assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
-            if check_ui:
-                assert sorted(new_groups, key=Group.id_or_max) == sorted(app.group.get_group_list(), key=Group.id_or_max)
+        else:
+            l = len(old_groups)
+            random_group_index = random.randrange(l)
+            group.id = old_groups[random_group_index].id
+        with pytest.allure.step('I modify the group %s in the list' % group):
+            if app.group.empty_name(group.id):
+                app.group.edit_group_by_id(group.id, group)
+            with pytest.allure.step('the new group list is equal to the old list with the modified group'):
+                new_groups = db.get_group_list()
+                assert len(old_groups) == len(new_groups)
+                old_groups[random_group_index] = group
+                assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
+                if check_ui:
+                    with pytest.allure.step('check UI'):
+                        assert sorted(new_groups, key=Group.id_or_max) == sorted(app.group.get_group_list(), key=Group.id_or_max)
 
 # тест с индексом
 
