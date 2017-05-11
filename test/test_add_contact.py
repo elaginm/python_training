@@ -1,6 +1,7 @@
 from model.contact import Contact
 import pytest
 
+
 def test_add_contact(app, db, json_contacts, check_ui):
     contact = json_contacts
     with pytest.allure.step('Given a contact list'):
