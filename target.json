@@ -1,8 +1,12 @@
 {
   "web": {
-    "baseUrl": "http://localhost/addressbook",
+    "baseUrl": "http:\\localhost\\addressbook",
     "username": "admin",
     "password": "secret"
+  },
+  "browser": {
+    "chrome":  "C:\\Project\\Chromedriver.exe",
+    "ie": "C:\\Project\\IEDriverServer.exe"
   },
   "db": {
     "host": "localhost",

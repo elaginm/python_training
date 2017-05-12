@@ -6,21 +6,22 @@ from fixture.contact import ContactHelper
 
 class Application:
 
-    def __init__(self, browser, base_url):
+    def __init__(self, browser, base_url, config):
         if browser == "firefox":
             self.wd = webdriver.Firefox()
         elif browser == "chrome":
             try:
-                self.wd = webdriver.Chrome(executable_path="C:\Project\Chromedriver.exe")
+                self.wd = webdriver.Chrome(config['browser']['chrome'])
             except:
                 self.wd = webdriver.Chrome()
         elif browser == "ie":
-            self.wd = webdriver.Ie(executable_path="C:\Project\IEDriverServer.exe")
+            self.wd = webdriver.Ie(config['browser']['ie'])
         else:
             raise ValueError("Unrecognized browser %s" % browser)
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
         self.contact = ContactHelper(self)
+        self.config = config
         self.base_url = base_url
 
     def is_valid(self):

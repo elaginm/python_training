@@ -1,165 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7639f52d-e0e8-4bc2-91d5-beb80ca097ca" name="Default" comment="Добавлено:&#10;Задание 27: Реализация тестов BDD (контакты и группы)&#10;Задание 29: Реализована генерация отчётов при помощи Allure">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/flash/clippy.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/img/allure-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/img/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/img/tests_passed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/font-awesome/4.2.0/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lxml-3.7.3-cp36-cp36m-win32.whl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/Allure/Allure_addressbook_config.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/Allure/Allure_addressbook_tests_report.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/Allure/Allure_addressbook_tests_report_2.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshots/Allure/Allure_addressbook_tests_report_3.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/2598c51c8dfdccca-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/308020ec1448a8fa-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/3fa159c8d545f711-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/4519043df39b7b6c-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/45bbd3677c24e96f-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/50e63956d6f7499d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/51e7d19b45b69902-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/59a581c37b43bd33-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/60d47f1254780f5a-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/672f9f2830c9954a-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/6961da3c608788ff-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/6e66c12542e572e7-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/6f7f4da0811c67c8-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/7015ba6332ae14b6-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/7d29a0dfd788d5da-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/a2c67ead36038dc2-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/aaa27ae97f617e4f-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/b0a6692b1936c060-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/bbdb04e53a84fe1f-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/bc369267fd63cbd1-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/c484c00052698a8c-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/c7e5353873c410f5-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/c80e5ba3b354ee04-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/d052faa40d904e5d-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/d2133f453a529c8-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/defects.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/e4565923169a9640-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/environment.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/f467879ca54af921-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/f74c36c35b4aa04b-testcase.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/graph.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/plugins.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/report.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/total.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/widgets.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/data/xunit.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/executor.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/charts/charts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/charts/duration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/charts/pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/charts/severityMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/charts/timeline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/filters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/overview/widgets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/pane/pane.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/pluginApi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/scrollfix/scrollfix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/table/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/testcase/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/testcase/provider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/testcase/statusSwitcher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/js/testcase/testcase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/en.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/ptbr.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/ru.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/behaviors/tab.tpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/defects/en.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/defects/ptbr.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/defects/ru.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/defects/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/defects/tab.tpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/environment/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/graph/en.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/graph/ptbr.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/graph/ru.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/graph/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/graph/tab.tpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/timeline/en.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/timeline/ptbr.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/timeline/ru.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/timeline/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/timeline/tab.tpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/total/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/en.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/ptbr.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/ru.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/tab.tpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/testrun.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/plugins/xunit/testsuite.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/overview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/overview/defects.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/overview/keyValue.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/overview/statistics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/overview/total.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/table/table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/testcase/attachment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/testcase/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/testcase/status-switcher.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/testcase/testcase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/templates/testcase/testcaseView.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/testrun.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/translations/en.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/translations/ptbr.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/translations/ru.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/vendor/filesize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/vendor/localstorageprovider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/vendor/messageformat/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/vendor/messageformat/ptbr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/vendor/messageformat/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/Sortable/1.2.0/Sortable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/Sortable/1.2.0/ng-sortable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angular-loading-bar/0.6.0/loading-bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angular-translate-interpolation-messageformat/0.1.2/angular-translate-interpolation-messageformat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angular-translate-loader-partial/2.6.0/angular-translate-loader-partial.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angular-translate/2.6.0/angular-translate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angular-ui-bootstrap/0.11.2/ui-bootstrap-tpls.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angular-ui-router/0.2.13/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angularjs/1.2.26/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/angularjs/1.2.26/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/d3js/3.4.11/d3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/highlightjs/8.2-1/highlight.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/jquery/2.1.1/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-report/webjars/messageformat.js/0.1.4/messageformat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/3fb88418-14c2-4ee9-9b05-85d35215f39e-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/4068bfca-5cce-47aa-915a-c244a452beab-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/4513dfa8-bcc6-41c2-90b2-26a418f30447-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/4c1bf98c-c93a-436f-b0e7-093adff86bfb-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/a01c5fe7-5ce0-4046-9f71-e94ef3f5e9de-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/a6ca63ee-d8cb-4e91-8741-ab79f5d40b4f-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/a7e690d3-938c-439e-9795-e527403bdd5b-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/a8693085-c987-445e-810e-4b846e1ba5df-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-results/ac6084f9-85c7-49ee-bae4-4b9c315a095c-testsuite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bdd/contact_scenarios.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bdd/contact_steps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bdd/contacts.feature" />
+    <list default="true" id="7639f52d-e0e8-4bc2-91d5-beb80ca097ca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bdd/group_steps.py" afterPath="$PROJECT_DIR$/bdd/group_steps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_add_contact.py" afterPath="$PROJECT_DIR$/test/test_add_contact.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_add_group.py" afterPath="$PROJECT_DIR$/test/test_add_group.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_contact_info.py" afterPath="$PROJECT_DIR$/test/test_contact_info.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_delete_contact.py" afterPath="$PROJECT_DIR$/test/test_delete_contact.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_edit_contact.py" afterPath="$PROJECT_DIR$/test/test_edit_contact.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_edit_group.py" afterPath="$PROJECT_DIR$/test/test_edit_group.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conftest.py" afterPath="$PROJECT_DIR$/conftest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/application.py" afterPath="$PROJECT_DIR$/fixture/application.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target.json" afterPath="$PROJECT_DIR$/target.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -173,35 +19,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="contacts.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bdd/contacts.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_contact_info.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_contact_info.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="122" lean-forward="false" selection-start-line="16" selection-start-column="122" selection-end-line="16" selection-end-column="122" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Robot Test Suite" />
       </list>
     </option>
   </component>
@@ -237,21 +61,16 @@
         <option value="$PROJECT_DIR$/generator/group.py" />
         <option value="$PROJECT_DIR$/data/groups.json" />
         <option value="$PROJECT_DIR$/generator/contact.py" />
-        <option value="$PROJECT_DIR$/target.json" />
         <option value="$PROJECT_DIR$/fixture/group.py" />
         <option value="$PROJECT_DIR$/test/test_db_matches_ui.py" />
-        <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/fixture/db.py" />
         <option value="$PROJECT_DIR$/test/test_phones.py" />
-        <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/fixture/contact.py" />
         <option value="$PROJECT_DIR$/check_db_connection.py" />
         <option value="$PROJECT_DIR$/fixture/orm.py" />
         <option value="$PROJECT_DIR$/test/contact_in_group.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/test/test_delete_group.py" />
         <option value="$PROJECT_DIR$/test/test_edit_group.py" />
-        <option value="$PROJECT_DIR$/test/test_add_contact.py" />
         <option value="$PROJECT_DIR$/test/test_add_group.py" />
         <option value="$PROJECT_DIR$/test/test_delete_contact.py" />
         <option value="$PROJECT_DIR$/test/test_edit_contact.py" />
@@ -261,14 +80,23 @@
         <option value="$PROJECT_DIR$/bdd/group_steps.py" />
         <option value="$PROJECT_DIR$/bdd/contact_steps.py" />
         <option value="$PROJECT_DIR$/test/test_contact_info.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/rf/group_scenarios1.robot" />
+        <option value="$PROJECT_DIR$/test/test_add_contact.py" />
+        <option value="$PROJECT_DIR$/rf/AddressBook.py" />
+        <option value="$PROJECT_DIR$/rf/group_scenarios.robot" />
+        <option value="$PROJECT_DIR$/rf/contact_scenarios.robot" />
+        <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/target.json" />
+        <option value="$PROJECT_DIR$/conftest.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-84" />
+    <option name="y" value="28" />
+    <option name="width" value="1232" />
+    <option name="height" value="957" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -313,8 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -337,63 +163,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="screenshots" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="screenshots" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Allure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python_training" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdd" />
+              <option name="myItemId" value="fixture" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/test_add_group.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_training_mantis" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
@@ -427,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in contact_scenarios.py">
+  <component name="RunManager" selected="Python tests.py.test in test">
     <configuration default="false" name="py.test for test_contact_info.test_contact_info_on_home_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -441,22 +223,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_contact_info.test_contact_info_on_home_page&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test for test_add_contact.test_add_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_training" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_contact.test_add_contact&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
@@ -505,6 +271,22 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/bdd&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_training" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
@@ -642,18 +424,18 @@
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test.test_edit_group.test_edit_name" />
       <item index="1" class="java.lang.String" itemvalue="Python.test_add_group" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_contact_info.test_contact_info_on_home_page" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_add_contact.test_add_contact" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contact.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in contact_scenarios.py" />
-      <item index="6" class="java.lang.String" itemvalue="Python tests.py.test in bdd" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contact.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in contact_scenarios.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in bdd" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.py.test in test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in contact_scenarios.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in bdd" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_contact_info.test_contact_info_on_home_page" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contact.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_add_contact.test_add_contact" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in contact_scenarios.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in bdd" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_contact_info.test_contact_info_on_home_page" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_add_contact.py" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -708,22 +490,24 @@
       <option name="project" value="LOCAL" />
       <updated>1494466528153</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлено:&#10;Задание 27: Реализация тестов BDD (контакты и группы)&#10;Задание 29: Реализована генерация отчётов при помощи Allure">
+      <created>1494525903195</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1494525903195</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Добавлено:&#10;Задание 30: Реализация тестов с использованием Robot Framework (контакты и группы)">
+      <created>1494546300686</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1494546300686</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_contact_info_test_contact_info_on_home_page - 2017.05.11 at 16h 58m 39s.xml">
-      <configuration name="py.test for test_contact_info.test_contact_info_on_home_page" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_contact_info_test_contact_info_on_home_page - 2017.05.11 at 17h 28m 45s.xml">
-      <configuration name="py.test for test_contact_info.test_contact_info_on_home_page" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_contact_info_test_contact_info_on_home_page - 2017.05.11 at 17h 28m 56s.xml">
-      <configuration name="py.test for test_contact_info.test_contact_info_on_home_page" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_bdd - 2017.05.11 at 18h 43m 27s.xml">
-      <configuration name="py.test in bdd" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_contact_scenarios_py - 2017.05.11 at 18h 25m 55s.xml">
       <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
     </history-entry>
@@ -742,8 +526,20 @@
     <history-entry file="py_test_in_contact_scenarios_py - 2017.05.11 at 18h 44m 01s.xml">
       <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_contact_scenarios_py - 2017.05.12 at 00h 15m 34s.xml">
+      <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_contact_scenarios_py - 2017.05.12 at 01h 01m 26s.xml">
+      <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test - 2017.05.12 at 02h 56m 06s.xml">
+      <configuration name="py.test in test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test - 2017.05.12 at 02h 58m 19s.xml">
+      <configuration name="py.test in test" configurationId="tests" />
+    </history-entry>
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -753,13 +549,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-84" y="28" width="1232" height="957" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.110416666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.4105737" sideWeight="0.3671783" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2294408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3663133" sideWeight="0.5726103" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28118393" sideWeight="0.36979166" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3139535" sideWeight="0.63282174" order="2" side_tool="false" content_ui="tabs" x="341" y="602" width="1575" height="442" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.677686" sideWeight="0.6302083" order="2" side_tool="false" content_ui="tabs" x="341" y="602" width="1575" height="442" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3809524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.8294243" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -777,24 +573,24 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3663133" sideWeight="0.5726103" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.4105737" sideWeight="0.3671783" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28118393" sideWeight="0.36979166" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2608225" sideWeight="0.63282174" order="2" side_tool="false" content_ui="tabs" x="341" y="602" width="1575" height="442" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28118393" sideWeight="0.6302083" order="2" side_tool="false" content_ui="tabs" x="341" y="602" width="1575" height="442" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3809524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.8294243" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2196162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5308219" sideWeight="0.70629" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5500589" sideWeight="0.70629" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
@@ -835,7 +631,8 @@
     <MESSAGE value="Добавление Allure для тестов групп" />
     <MESSAGE value="Правки" />
     <MESSAGE value="Добавлено:&#10;Задание 27: Реализация тестов BDD (контакты и группы)&#10;Задание 29: Реализована генерация отчётов при помощи Allure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлено:&#10;Задание 27: Реализация тестов BDD (контакты и группы)&#10;Задание 29: Реализована генерация отчётов при помощи Allure" />
+    <MESSAGE value="Добавлено:&#10;Задание 30: Реализация тестов с использованием Robot Framework (контакты и группы)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено:&#10;Задание 30: Реализация тестов с использованием Robot Framework (контакты и группы)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -854,11 +651,6 @@
           <url>vcs://C:/Project/python_training/test/test_edit_contact.py</url>
           <line>50</line>
           <option name="timeStamp" value="117" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/contact.py</url>
-          <line>224</line>
-          <option name="timeStamp" value="420" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -889,22 +681,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/mysql/connector/connection.py" />
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/pymysql/converters.py" />
-    <entry file="file://$PROJECT_DIR$/generator/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="39" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.cache/v/cache/lastfailed" />
     <entry file="file:///usr/local/lib/python3.5/dist-packages/selenium/webdriver/common/service.py" />
     <entry file="file://$PROJECT_DIR$/fixture/__init__.py">
@@ -963,36 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/orm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/groups.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,57 +770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_delete_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="106" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_delete_contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#33#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/contact_in_group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
           <caret line="105" column="56" lean-forward="false" selection-start-line="105" selection-start-column="56" selection-end-line="105" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1078,51 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_edit_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="38" column="68" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,17 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="613" column="0" lean-forward="false" selection-start-line="613" selection-start-column="0" selection-end-line="613" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_edit_contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="81" column="52" lean-forward="true" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#33#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,15 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,27 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd/group_steps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd/contact_steps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#24#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,15 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,10 +822,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/7105c50d-4b4f-49a9-824a-d7f2c3b5b765-testsuite.xml">
+    <entry file="file://$PROJECT_DIR$/allure-results/7105c50d-4b4f-49a9-824a-d7f2c3b5b765-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/test/test_contact_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1088">
+        <state relative-caret-position="17">
+          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#33#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rf/group_scenarios1.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1230,12 +857,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_contact_info.py">
+    <entry file="file://$PROJECT_DIR$/bdd/contact_steps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="122" lean-forward="false" selection-start-line="16" selection-start-column="122" selection-end-line="16" selection-end-column="122" />
+        <state relative-caret-position="-102">
+          <caret line="13" column="95" lean-forward="false" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="95" />
+          <folding>
+            <element signature="e#24#64#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#29#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_delete_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_edit_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="68" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#29#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bdd/group_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_delete_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_edit_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rf/AddressBook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="65" column="38" lean-forward="true" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rf/group_scenarios.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rf/contact_scenarios.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="92" lean-forward="true" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/orm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1672">
+          <caret line="116" column="8" lean-forward="false" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="85" column="27" lean-forward="false" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
